@@ -1,0 +1,47 @@
+.body98 {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    /*background-color: #171a1d;*/
+    /*color: #7e7e7e;*/
+}
+
+.body98 h1 {
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+
+.body98 img {
+    width: 100%;
+}
+
+.body98 li {
+    width: 100%;
+    line-height: 30px;
+}
+
+.body98 a {
+    width: 100%;
+}
+
+.blog-box {
+    padding-top: 3rem;
+    height: 100%;
+}
+
+.blog-box-item {
+    padding: 20px;
+    height: 100%;
+}
+
+.blog-box-item-left {
+    float: left;
+    width: 70%;
+    padding-right: 10px;
+}
+
+.blog-box-item-right {
+    float: right;
+    width: 30%;
+    background-color: yellow;
+}

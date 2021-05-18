@@ -1,0 +1,505 @@
+@font-face {
+    font-family: 'Yantramanav';
+    src: url(/f/frodo/6e723b301e8f3cfb84a560385a5710c2f9d693d0/pics/landing/fonts/Yantramanav.eot);
+    src: local("Yantramanav Light"), local("Yantramanav-Light"), url(/f/frodo/6e723b301e8f3cfb84a560385a5710c2f9d693d0/pics/landing/fonts/Yantramanav.eot) format("embedded-opentype"), url(/f/frodo/3905999ac7cbbaea21d3bab6b1b9f247bae566eb/pics/landing/fonts/Yantramanav.ttf) format("truetype"), url(/f/frodo/1e946a30d020354e007c3e430dece2ec2fb65dc2/pics/landing/fonts/Yantramanav.svg) format("svg"), url(/f/frodo/861bdb9ee183412e78ea5a4619a18f15b7608c76/pics/landing/fonts/Yantramanav.woff) format("woff"), url(/f/frodo/7eeb5cb4344606d988c5b7967f9b5a53d90401aa/pics/landing/fonts/Yantramanav.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "frodo";
+    src: url(/f/frodo/f6cd5b83ed2046fd90dfbfe54a0869a45bf6d20d/pics/fonts/frodo.v1.eot);
+    src: url(/f/frodo/f6cd5b83ed2046fd90dfbfe54a0869a45bf6d20d/pics/fonts/frodo.v1.eot) format("embedded-opentype"), url(/f/frodo/77f66660150b4f175ace411792e7af676d28c655/pics/fonts/frodo.v1.woff) format("woff"), url(/f/frodo/e63a878e635f9c3f56a20eeb91818742ad45054f/pics/fonts/frodo.v1.ttf) format("truetype"), url(/f/frodo/a0aaf7a087149e7250146621ccd07ee67319ffd9/pics/fonts/frodo.v1.svg) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'frodo';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.icon-doubanlogo:before {
+    content: "\e007"
+}
+
+.icon-search:before {
+    content: "\e006"
+}
+
+.icon-renren:before {
+    content: "\e005"
+}
+
+.icon-qq:before {
+    content: "\e004"
+}
+
+.icon-douban:before {
+    content: "\e003"
+}
+
+.icon-weibo:before {
+    content: "\e002"
+}
+
+.icon-apple:before {
+    content: "\e001"
+}
+
+.icon-android:before {
+    content: "\e000"
+}
+
+body {
+    background-color: #fff;
+    color: #666;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei Mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-rendering: optimizeLegibility
+}
+
+ul, li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.app-related-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 12px
+}
+
+.app-related-info li {
+    display: inline-block;
+    color: #999
+}
+
+.app-related-info li + li:before {
+    content: "/";
+    margin: 0 4px 0 2px
+}
+
+.app-related-info a {
+    text-decoration: none;
+    color: #999
+}
+
+.app-related-info a:hover {
+    color: #666
+}
+
+.app-related-info {
+    text-align: right
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+#superContainer {
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ks-box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    padding: 70px 0 0
+}
+
+section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+section .content {
+    width: 6.4rem;
+    margin: 0 auto;
+    height: 80%
+}
+
+section .content .childpic {
+    height: 100%;
+    display: block;
+    margin: 0 auto
+}
+
+section .content > * {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 0 100%;
+    -moz-flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%
+}
+
+section .tit {
+    margin-bottom: .16rem;
+    color: #444;
+    font-size: .24rem;
+    line-height: 1.2
+}
+
+section .tit span {
+    font-size: .13rem
+}
+
+section .con {
+    color: #9b9b9b;
+    font-size: .14rem;
+    line-height: 1.5
+}
+
+section.first {
+    position: relative
+}
+
+section.first .content {
+    box-sizing: border-box;
+    position: relative;
+    height: 90%;
+    transform: translate(13%, 5%)
+}
+
+section.first .cover {
+    top: -10%;
+    position: absolute;
+    left: -45%;
+    height: 110%
+}
+
+section.first .intro {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    max-height: 2.9rem;
+    height: 60%;
+    width: 40%;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+    -webkit-flex: 0;
+    -moz-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-content: center;
+    -moz-align-content: center;
+    align-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column
+}
+
+section.first .intro p {
+    white-space: pre-line
+}
+
+section.first .tit {
+    margin-bottom: .1rem;
+    font-size: .17rem;
+    white-space: nowrap
+}
+
+section.first .tit span {
+    font-size: .2rem
+}
+
+section.first .con {
+    font-size: .12rem;
+    line-height: .22rem;
+    margin-bottom: .1rem;
+    white-space: pre-line
+}
+
+section.first .logo {
+    width: .78rem;
+    margin-bottom: .2rem;
+    display: block
+}
+
+section:last-child .content {
+    -webkit-align-content: flex-start;
+    -moz-align-content: flex-start;
+    align-content: flex-start;
+    -ms-flex-line-pack: start
+}
+
+.active .tit {
+    -webkit-animation: fadeInDown 1s linear both;
+    -moz-animation: fadeInDown 1s linear both;
+    animation: fadeInDown 1s linear both
+}
+
+.active .con {
+    -webkit-animation: fadeInDown 1s linear both;
+    -moz-animation: fadeInDown 1s linear both;
+    animation: fadeInDown 1s linear both;
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    animation-delay: .8s
+}
+
+.pin {
+    color: #9b9b9b;
+    font-size: .09rem
+}
+
+.pin img {
+    width: .6rem
+}
+
+.copyright {
+    width: 100%;
+    padding-bottom: .12rem;
+    color: #a7a7a7;
+    font-size: .08rem;
+    position: absolute;
+    bottom: 0
+}
+
+#fp-nav {
+    position: fixed;
+    right: .17rem;
+    top: 50%
+}
+
+#fp-nav li {
+    margin: .06rem
+}
+
+#fp-nav li a {
+    height: .04rem;
+    width: .04rem;
+    display: block;
+    border: .01rem solid #5AD162;
+    border-radius: 50%;
+    font-size: 0;
+    line-height: 0
+}
+
+#fp-nav li a.active {
+    background: #5AD162
+}
+
+.returntop {
+    display: none;
+    height: .22rem;
+    width: .23rem;
+    background: url(/f/frodo/9feb115fe9c03d9beb434991f5b0a9dd7f714d95/pics/app/bt_top.png) no-repeat;
+    background-size: auto 100%;
+    position: fixed;
+    bottom: .2rem;
+    right: .3rem;
+    cursor: pointer;
+    z-index: 10
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 312.5%
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 351.5625%
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 366.211%
+    }
+}
+
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 390.625%
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 404.2969%
+    }
+}
+
+@media screen and (min-width: 440px) {
+    html {
+        font-size: 429.6875%
+    }
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 468.75%
+    }
+}
+
+@media screen and (min-width: 520px) {
+    html {
+        font-size: 507.8125%
+    }
+}
+
+@media screen and (min-width: 540px) {
+    html {
+        font-size: 527.34375%
+    }
+}
+
+@media screen and (min-width: 560px) {
+    html {
+        font-size: 546.875%
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 585.9375%
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 625%
+    }
+}
+
+@media screen and (min-width: 680px) {
+    html {
+        font-size: 664.0625%
+    }
+}
+
+@media screen and (min-width: 720px) {
+    html {
+        font-size: 703.125%
+    }
+}
+
+@media screen and (min-width: 760px) {
+    html {
+        font-size: 742.1875%
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 781.25%
+    }
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        font-size: 737.5%
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 1200%
+    }
+}
+
+    
